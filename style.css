@@ -1,6 +1,20 @@
-.trail { /* className for the trail elements */
-  position: absolute;
-  height: 6px; width: 6px;
-  border-radius: 3px;
-  background: teal;
+.float{
+  position:fixed;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0 0 1px;
+  top:50px;
+  z-index: 1000;
+  right:100px;
+}
+
+.closed{
+  display: none;
+}
+
+.vobi-frame {
+  width: 250px;
+  height: 250px;
 }
