@@ -1,0 +1,65 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+<body>
+    <div id="vobi-sidebar" class="vobi-sidebar">
+        <header class="vobi-sidebar-header">
+            <img height="62px" width="25px" src="/images/get_started128.png"/>
+            <div class="vobi-header-icons">
+                <div id="info-sidebar" class="tooltip">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    <span class="tooltiptext">Tooltip text</span>
+                </div>
+                <i id="close-sidebar" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </header>
+    
+        <div id="vobi-sidebar-body" class="vobi-sidebar-body">
+            <div class="vobi-get-container">
+                <div id="vobi-product-images" class="vobi-product-images">
+                </div>
+                <i id="vobi-get-image" class="fa fa-mouse-pointer fa-border fa-pull-right" aria-hidden="true"></i>
+            </div>
+            <div class="vobi-get-container">
+                <input placeholder="Título do produto" id="vobi-product-title" class="vobi-product-input"/>
+                <i id="vobi-get-title" class="fa fa-mouse-pointer fa-border fa-pull-left" aria-hidden="true"></i>
+            </div>
+            <div class="vobi-get-container">
+                <input placeholder="Valor" id="vobi-product-price" class="vobi-product-input input-small"/>
+                <i id="vobi-get-price" class="fa fa-mouse-pointer" aria-hidden="true"></i>
+
+            </div>
+            <div class="vobi-get-container">
+            <textarea placeholder="Descrição do produto" id="vobi-product-description" class="vobi-product-input input-textbox">
+                </textarea>
+                <i id="vobi-get-description" class="fa fa-mouse-pointer" aria-hidden="true"></i>
+            </div>
+            <input placeholder="Link do produto" id="vobi-product-link" class="vobi-product-input"/>
+            <input placeholder="Marca" id="vobi-product-brand" class="vobi-product-input"/>
+            <select id="vobi-supplier-select" class="vobi-product-input select">
+                <option selected value="">Selecione um fornecedor</option>
+            </select>
+            <select id="vobi-category-select" class="vobi-product-input select">
+                <option selected value="">Selecione uma categoria</option>
+            </select>
+            <select id="vobi-group-select" class="vobi-product-input select">
+                <option selected value="">Selecione um grupo</option>
+            </select>
+            <select id="vobi-project-select" class="vobi-product-input select">
+                <option selected value="">Selecione um projeto</option>
+            </select>
+            <div class="vobi-library">
+                <input type="checkbox" id="vobi-add-to-library"/>
+                <span>Criar produto na minha biblioteca</span>
+            </div>
+            <button id="submit-sidebar" class="vobi-primary-button">
+                Salvar na Vobi
+            </button>    
+        </div>
+    </div>
+    
+</body>
+
+</html>
+

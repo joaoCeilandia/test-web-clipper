@@ -1,0 +1,96 @@
+.vobi-sidebar {
+  position: absolute;
+  width: 416px;
+  height: 1024px;
+  background-color: white;
+  box-shadow: 0 0 1px;
+  top: 0;
+  z-index: 1000;
+  right: 0;
+}
+
+.vobi-product-input {
+  background-color: #EEF1F9;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  height: 40px;
+  padding: 0 8px;
+  margin-bottom: 8px;
+}
+
+.vobi-product-input.select {
+  width: 316px;
+}
+
+
+.input-small {
+  width: 159px;
+}
+
+.input-textbox {
+  height: 125px;
+  width: 316px;
+  padding: 8px;
+}
+
+.closed {
+  display: none;
+}
+
+.vobi-library {
+  margin: 16px 0;
+}
+
+.vobi-sidebar-body {
+  margin-left: 24px;
+}
+
+.vobi-product-images {
+  margin: 16px 0;
+}
+
+.vobi-product-images > img {
+  width: 50px;
+  height: 50px;
+}
+
+.vobi-product-images > img:first-child {
+  width: 100px;
+  height: 100px;
+}
+
+.vobi-primary-button {
+  background: #2F5FE3;
+  border-radius: 56px;
+  width: 175px;
+  height: 40px;
+  color: white;
+  border: none;
+}
+
+.vobi-header-icons > .fa-times {
+  margin: 16px;
+  cursor: pointer;
+}
+
+.vobi-sidebar-header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px solid #CACACA;;
+}
+
+.vobi-sidebar-header > img {
+  margin: 16px;
+ }
+
+ .vobi-get-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ }
+
+ .vobi-get-container > i {
+  margin: 0 16px;
+ }
